@@ -21,6 +21,7 @@
     "parcel": "^2.16.0"
   },
   "dependencies": {
+    "@partiellkorrekt/parcel-transformer-handlebars": "^1.0.5",
     "handlebars": "^4.7.8"
   }
 }

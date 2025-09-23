@@ -29,6 +29,8 @@ addBookmarkBtn.addEventListener("click", () => {
     zakladkyList.push(bookmarkInputValue);
     bookmarkInput.value = "";
     saveZakladky();
+  } else {
+    alert("Це не посилання!")
   }
 });
 
