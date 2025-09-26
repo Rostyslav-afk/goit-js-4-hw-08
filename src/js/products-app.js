@@ -9,9 +9,6 @@ productsList.innerHTML = template({ products });
 productInput.addEventListener("input", (event) => {
     const search = event.target.value.toLowerCase().trim();
 
-    const filteredProducts = products.filter((product) =>
-        product.name.toLowerCase().includes(search) 
-    );
-
+    const filteredProducts = products.filter((product) => product.name.toLowerCase().includes(search));
     productsList.innerHTML = template({ products: filteredProducts });
 });
