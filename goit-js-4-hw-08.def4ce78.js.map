@@ -1,0 +1,1 @@
+{"mappings":"","sources":["src/app.js","src/js/zakladky.js","src/js/form.js"],"sourcesContent":["import \"./js/zakladky\";\r\nimport \"./js/form\";","",""],"names":[],"version":3,"file":"goit-js-4-hw-08.def4ce78.js.map"}
