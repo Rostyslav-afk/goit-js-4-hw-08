@@ -6,11 +6,3 @@ saveBtn.addEventListener("click", () => {
     localStorage.setItem("username", usernameInput.value);
     localStorage.setItem("password", passwordInput.value);
 });
-
-window.addEventListener("DOMContentLoaded", () => {
-    const savedUsername = localStorage.getItem("username");
-    const savedPassword = localStorage.getItem("password");
-
-    if (savedUsername) usernameInput.value = savedUsername;
-    if (savedPassword) passwordInput.value = savedPassword;
-});
