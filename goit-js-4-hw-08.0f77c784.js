@@ -770,12 +770,6 @@ saveBtn.addEventListener("click", ()=>{
     localStorage.setItem("username", usernameInput.value);
     localStorage.setItem("password", passwordInput.value);
 });
-window.addEventListener("DOMContentLoaded", ()=>{
-    const savedUsername = localStorage.getItem("username");
-    const savedPassword = localStorage.getItem("password");
-    if (savedUsername) usernameInput.value = savedUsername;
-    if (savedPassword) passwordInput.value = savedPassword;
-});
 
 },{}],"czzR1":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
